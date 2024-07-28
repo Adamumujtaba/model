@@ -89,8 +89,7 @@
 
   .nav-menu {
     background: #184ca0;
-    /* background: red; */
-  /* background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%); */
+    /* background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%); */
     position: absolute;
     left: 0;
     right: 0;
@@ -99,7 +98,7 @@
     display: inline-block;
     transition: all 1.6s ease;
     z-index: 1;
-    padding: 10px 5px;
+    padding: 15px 5px;
   }
   .navbar-logo {
     color: #fff;
@@ -131,5 +130,7 @@
     width: 100%;
     border-bottom: 1px solid #fff;
     justify-content: flex-start;
+    padding: 10px  5px;
+    margin: 10px 2px ;
   }
 }

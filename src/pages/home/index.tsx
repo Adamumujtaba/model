@@ -11,6 +11,7 @@ import Founders from './founders.component';
 import GeoLocation from './geo.location';
 // import Board from './board';
 import MessageCardComponent from '../../components/messagecard';
+import SchoolManagement from './school-management';
 
 function Home() {
   return (
@@ -30,10 +31,12 @@ function Home() {
         reverse={undefined}
       />
 
-      <ExamComponents />
+      <Founders />
+
+      <SchoolManagement />
 
       <Box
-        header={'Computer Lap'}
+        header={'Computer Center'}
         body={
           <p>
             With the increasing reliance on technology in all aspects of life, having access to a computer lab is more
@@ -67,8 +70,6 @@ function Home() {
         imgUrl={scienceLap}
       />
 
-      <Founders />
-
       {/* <Board /> */}
 
       <div className="carousel-cont">
@@ -95,6 +96,7 @@ function Home() {
 
       <MessageCardComponent />
 
+      <ExamComponents />
       <Box
         header={'About us'}
         body={
