@@ -9,7 +9,7 @@ import SchImg1 from '../../images/break.jpg';
 import SchImg2 from '../../images/computer3.jpg';
 import Founders from './founders.component';
 import GeoLocation from './geo.location';
-import Board from './board';
+// import Board from './board';
 import MessageCardComponent from '../../components/messagecard';
 
 function Home() {
@@ -69,7 +69,7 @@ function Home() {
 
       <Founders />
 
-      <Board />
+      {/* <Board /> */}
 
       <div className="carousel-cont">
         <h2>Discover the warmth and camaraderie of our school community.</h2>
