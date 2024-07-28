@@ -53,6 +53,7 @@ function Home() {
             .
           </p>
         }
+        reverse
         imgUrl={Computer}
       />
 
@@ -66,7 +67,6 @@ function Home() {
             applications of scientific concepts
           </p>
         }
-        reverse
         imgUrl={scienceLap}
       />
 

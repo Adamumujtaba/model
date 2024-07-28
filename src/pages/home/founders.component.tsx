@@ -6,7 +6,7 @@ import styled from 'styled-components';
 function Founders() {
   return (
     <>
-      <div style={{ margin: '6rem 0px' }}>
+      <div style={{ margin: '6rem 0em', padding: '3rem 0px', background: '#124596' }}>
         <Header>The School Founders</Header>
         <Container>
           <BoardContainer>
@@ -50,6 +50,7 @@ const Container = styled.div`
 const Header = styled.h2`
   text-align: center;
   text-decoration: underline;
+  color: #fff;
 `;
 
 const BoardContainer = styled.div`
@@ -72,6 +73,7 @@ const BoardCard = styled.div<BoardCardProps>`
   border-radius: 5px;
   padding: 10px 10px;
   position: relative;
+  background: #fff;
   box-shadow: 4px 3px 11px -6px rgba(0, 0, 0, 0.75);
   @media screen and (max-width: 768px) {
     width: 100%;
