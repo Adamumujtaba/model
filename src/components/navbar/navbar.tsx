@@ -35,9 +35,24 @@ function Navbar() {
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link to="/staff" className="nav-links" onClick={() => closeMobileMenu()}>
                   Staff
+                </Link>
+              </li> */}
+              <li className="nav-item">
+                <Link to="/toungo" className="nav-links" onClick={() => closeMobileMenu()}>
+                  Toungo
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/jada" className="nav-links" onClick={() => closeMobileMenu()}>
+                  Jada
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/kojoli" className="nav-links" onClick={() => closeMobileMenu()}>
+                  Kojoli
                 </Link>
               </li>
             </ul>

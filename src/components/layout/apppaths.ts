@@ -2,8 +2,8 @@ export const appPaths = {
   home: '/',
   staff: '/staff',
   about: '/about',
-  faq: '/faq',
-  admission: '/admission',
-  alumni: '/alumni',
-  news: '/news',
+  jada: '/jada',
+  toungo: '/toungo',
+  kojoli: '/kojoli',
+  // news: '/news',
 };

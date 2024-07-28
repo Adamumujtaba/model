@@ -16,7 +16,7 @@ function Home() {
   return (
     <>
       <Box
-        header={'Atiku Abubakar Centre For Arabic and Islamic Studies'}
+        header={'Model Islamiyya School Ganye'}
         body={
           <p>
             We are proud to offer a curriculum that combines both Western and Arabic education, providing our students
