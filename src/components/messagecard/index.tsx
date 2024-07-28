@@ -39,7 +39,12 @@ const Card = styled.div`
   text-align: justify;
   margin: var(--16px) auto;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-
+  cursor: pointer;
+  &:hover {
+    box-shadow: none;
+    border: 1px solid grey;
+    /* box-shadow: inset rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+  }
   @media screen and (max-width: 760px) {
     width: 90%;
   }

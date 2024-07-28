@@ -93,7 +93,7 @@ function Board() {
       <ImageGallery
         items={images}
         disableThumbnailScroll={true}
-        autoPlay={false}
+        autoPlay={true}
         showThumbnails={false}
         showPlayButton={false}
         showBullets={!true}
