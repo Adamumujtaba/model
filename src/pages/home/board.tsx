@@ -172,7 +172,7 @@ const Container = styled.section`
   overflow-x: auto;
 `;
 const UserCard = styled.div`
-  min-width: var(--150px);
+  min-width: var(--200px);
   height: 100%;
   padding: 3px 3px;
   display: flex;
@@ -181,15 +181,14 @@ const UserCard = styled.div`
   background: #fff;
   border-radius: 3px;
   position: relative;
+  width: var(--200px);
   box-shadow: 4px 3px 11px -6px rgba(0, 0, 0, 0.75);
   div:nth-child(1) {
     height: 100%;
   }
-
   div:nth-child(2) {
     height: 30%;
   }
-  /* margin: 5px; */
   img {
     width: 100%;
     height: 100%;
